@@ -1,0 +1,13 @@
+<mat-toolbar color="primary">
+  <a class="logo" routerLink="/">
+      PostManager
+  </a>
+  <a routerLink="/posts">  <button mat-button class="header-button-first">Explore posts</button></a> &nbsp;
+  <a routerLink="/add-post"><button mat-button class="header-button">Add post</button></a>
+  <div class="likes-counter" > Total likes: 12345</div>
+  <button
+  mat-raised-button
+  class="header-login-button">Login</button>
+</mat-toolbar>
+
+<router-outlet></router-outlet>

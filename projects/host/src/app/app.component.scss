@@ -1,0 +1,39 @@
+.logo{
+    padding-left: 5px;
+    padding-bottom: 4px;
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+}
+
+.header{
+    &-button{
+        margin-left: 10px;
+    }
+
+    &-button-first{
+        margin-left: 40px;
+    }
+    &-profile-button{
+        margin-right: 20px;
+    }
+    &-profile-image{
+        background-size: cover;
+    }
+}
+
+.mat-mdc-raised-button:not(:disabled) {
+    color: #673ab7;
+}
+
+mat-toolbar{
+    top: 0;
+    z-index: 1000;
+}
+
+.likes-counter{
+    margin-left:auto;
+    margin-right: 50px;
+    font-size: 15px;
+}
+
